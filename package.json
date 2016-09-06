@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-app-into-docker",
+  "version": "1.0.0",
+  "description": "Sample node.js app to run into a docker container",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srigurajala/nodejs-app-into-docker.git"
+  },
+  "keywords": [
+    "docker",
+    "node.js"
+  ],
+  "author": "Srinivas Gurajala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srigurajala/nodejs-app-into-docker/issues"
+  },
+  "homepage": "https://github.com/srigurajala/nodejs-app-into-docker#readme"
+}
