@@ -2,17 +2,17 @@
 This example let you understand how to create a NodeJs app into a docker container
 
 # Build Image
-docker build -t imageTagName .
+`docker build -t imageTagName .`
 
 # Get docker image details
-docker images
+`docker images`
 
 # Run Image
-docker run -d imageTagName
+`docker run -d imageTagName`
 
-# Get container detais
-docker ps
+# Get container details
+`docker ps`
 
 # Test the app inside container
-docker exec -it containerId /bin/bash
-curl http://localhost:9000/
+* `docker exec -it containerId /bin/bash`
+* `curl http://localhost:9000/`
